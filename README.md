@@ -4,7 +4,7 @@
 
 A clean, efficient, and lightweight multi-task pipeline for **simultaneous segmentation of Optic Disc (OD) and Optic Cup (OC)** from color fundus photographs — enabling **direct end-to-end Cup-to-Disc Ratio (CDR)** calculation, the primary biomarker for glaucoma detection.
 
-![example](assets/example_result.png)
+![example](Screenshot 2025-11-26 035855.png)
 *Green = Optic Disc | Blue = Optic Cup | Red overlay = Ground truth (for reference)*
 
 ## What This Repository Does (Current Focus)
