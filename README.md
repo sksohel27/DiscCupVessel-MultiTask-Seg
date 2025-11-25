@@ -17,13 +17,19 @@ A state-of-the-art, **multi-task deep learning framework** for comprehensive ret
 All models are lightweight, highly accurate, and designed for **real-world clinical deployment**.
 
 <div align="center">
-  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/Screenshot%202025-11-26%20035855.png?raw=true" width="48%"/>
-  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/6a1dfb3f-03c0-48c1-b430-4f1460bd9b9d.png" width="48%"/>
-  <br>
-  <sub>
-    <strong>Left:</strong> Optic Disc (Green) + Optic Cup (Blue) → CDR Estimation | 
-    <strong>Right:</strong> Blood Vessel Segmentation (White)
-  </sub>
+
+**Optic Disc & Cup Segmentation**  
+<img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/Screenshot%202025-11-26%20035855.png?raw=true" width="700"/>
+<br>
+<sub><strong>Green</strong> = Optic Disc | <strong>Blue</strong> = Optic Cup | Red contour = Ground Truth</sub>
+
+<br><br>
+
+**Blood Vessel Segmentation**  
+<img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/6a1dfb3f-03c0-48c1-b430-4f1460bd9b9d.png" width="700"/>
+<br>
+<sub>High-resolution vessel tree extraction — robust to illumination and pathology</sub>
+
 </div>
 
 ---
