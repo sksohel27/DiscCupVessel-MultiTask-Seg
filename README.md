@@ -9,11 +9,6 @@ A clean, efficient, and lightweight multi-task pipeline for **simultaneous segme
   <br>
   <sub><strong>Green</strong> = Optic Disc | <strong>Blue</strong> = Optic Cup | <strong>Red contour</strong> = Ground truth</sub>
 </div>
-
-### More Results
-<div align="center">
-  <img src="[https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/assets/result1.png?raw=true](https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/5904e131-1e04-45fd-8510-f6c55459d3ad.png)" width="32%"/>
-</div>![example](Screenshot 2025-11-26 035855.png)
 *Green = Optic Disc | Blue = Optic Cup | Red overlay = Ground truth (for reference)*
 
 ## What This Repository Does (Current Focus)
