@@ -18,7 +18,7 @@ All models are lightweight, highly accurate, and designed for **real-world clini
 
 <div align="center">
   <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/Screenshot%202025-11-26%20035855.png?raw=true" width="48%"/>
-  <img src="[[https://github.com/user-attachments/assets/sample-vessel-output.png](https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/6a1dfb3f-03c0-48c1-b430-4f1460bd9b9d.png)](https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/6a1dfb3f-03c0-48c1-b430-4f1460bd9b9d.png)" width="48%"/>
+  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/6a1dfb3f-03c0-48c1-b430-4f1460bd9b9d.png" width="48%"/>
   <br>
   <sub>
     <strong>Left:</strong> Optic Disc (Green) + Optic Cup (Blue) → CDR Estimation | 
