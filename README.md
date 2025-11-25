@@ -72,14 +72,3 @@ text
 - [ ] **Gradio / Streamlit** web demo (upload → instant prediction)
 - [ ] Vessel segmentation head → vessel density + ISNT rule evaluation
 
-## Citation
-If you use this code or model in your research, please cite:
-```bibtex
-@misc{discupvessel2025,
-  author = {Your Name},
-  title = {DiscCupVessel-MultiTask-Seg: Lightweight Multi-Task Segmentation of Optic Disc and Cup for Glaucoma Screening},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/your-username/DiscCupVessel-MultiTask-Seg}}
-}
