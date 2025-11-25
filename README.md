@@ -4,7 +4,19 @@
 
 A clean, efficient, and lightweight multi-task pipeline for **simultaneous segmentation of Optic Disc (OD) and Optic Cup (OC)** from color fundus photographs — enabling **direct end-to-end Cup-to-Disc Ratio (CDR)** calculation, the primary biomarker for glaucoma detection.
 
-![example](Screenshot 2025-11-26 035855.png)
+<div align="center">
+  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/Screenshot%202025-11-26%20035855.png?raw=true" alt="Segmentation example" width="800"/>
+  <br>
+  <sub><strong>Green</strong> = Optic Disc | <strong>Blue</strong> = Optic Cup | <strong>Red contour</strong> = Ground truth</sub>
+</div>
+
+### More Results
+<div align="center">
+  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/assets/result1.png?raw=true" width="32%"/>
+  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/assets/result2.png?raw=true" width="32%"/>
+  <img src="https://github.com/sk [...]
+
+</div>![example](Screenshot 2025-11-26 035855.png)
 *Green = Optic Disc | Blue = Optic Cup | Red overlay = Ground truth (for reference)*
 
 ## What This Repository Does (Current Focus)
