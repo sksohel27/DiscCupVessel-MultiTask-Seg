@@ -12,10 +12,7 @@ A clean, efficient, and lightweight multi-task pipeline for **simultaneous segme
 
 ### More Results
 <div align="center">
-  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/assets/result1.png?raw=true" width="32%"/>
-  <img src="https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/assets/result2.png?raw=true" width="32%"/>
-  <img src="https://github.com/sk [...]
-
+  <img src="[https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/assets/result1.png?raw=true](https://github.com/sksohel27/DiscCupVessel-MultiTask-Seg/blob/main/5904e131-1e04-45fd-8510-f6c55459d3ad.png)" width="32%"/>
 </div>![example](Screenshot 2025-11-26 035855.png)
 *Green = Optic Disc | Blue = Optic Cup | Red overlay = Ground truth (for reference)*
 
