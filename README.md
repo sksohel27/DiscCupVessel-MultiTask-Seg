@@ -96,33 +96,25 @@ Competitive with **SOTA** on REFUGE, GAMMA, Drishti-GS, RIM-ONE-r3, and private 
 **Supports free Colab GPU/TPU** – no installation required!
 
 ### Expected Dataset Format
-dataset/
-├── images/           # Color fundus (any size → auto-resized)
-├── masks_od/         # Optic Disc binary masks
-├── masks_oc/         # Optic Cup binary masks
-├── masks_vessel/     # Blood vessel binary masks (optional)
-└── metadata.csv      # Columns: image_path, od_path, oc_path, vessel_path
+
+Your dataset must be organized as follows (the notebook will automatically fix paths if you follow this structure):
+
+**Important Notes:**
+- All masks must be **binary** (0 = background, 255 = structure)
+- Filenames must match exactly between `images/` and mask folders
+- The Colab notebook includes a **one-click metadata generator** — just upload your folders and run the cell!
+
+**Example `metadata.csv` (first few rows):**
+
+| image_path                          | od_path                              | oc_path                              | vessel_path                          |
+|-------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+| dataset/images/001.png              | dataset/masks_od/001.png             | dataset/masks_oc/001.png             | dataset/masks_vessel/001.png         |
+| dataset/images/002.jpg              | dataset/masks_od/002.jpg             | dataset/masks_oc/002.jpg             | dataset/masks_vessel/002.jpg         |
+
+Just copy-paste this block directly into your README.md — it will render perfectly on GitHub!  
+No more broken trees or formatting issues.
 
 
 All notebooks include **automatic path fixing** and validation.
 
 ---
-
-## Inference Example (One Line)
-
-```python
-od_mask, oc_mask, vessel_mask = predict_full_image("sample.png")
-cdr_vertical = compute_cdr(od_mask, oc_mask, axis='vertical')
-print(f"Vertical CDR: {cdr_vertical:.3f} → {'High Risk' if cdr_vertical > 0.6 else 'Normal'}")
-Future Roadmap
-
- Optic Disc & Cup Segmentation
- Blood Vessel Segmentation
-Joint Multi-Task Model (OD + OC + Vessels in one forward pass)
- Automatic vertical & horizontal CDR + ISNT rule check
- Glaucoma risk score (0–100) with explainability
-Gradio Web Demo – Upload image → Instant results
-TensorFlow Lite export for Android/iOS apps
- Integration with ophthalmic devices (Topcon, Zeiss, etc.)
-Star this repo if you're working on retinal AI or glaucoma screening!
-Contributions, datasets, and clinical collaborations are very welcome.
